@@ -1,0 +1,7 @@
+# Set the address and port Borgsphere listen on
+DEMO_ADDR=0.0.0.0:5019
+DEMO_DB_DRIVER=mysql
+DEMO_DB_DSN=auth:jRa4DatfNM7g2@tcp(192.168.115.131:3306)/auth?charset=utf8&parseTime=true&loc=Local
+
+
+
