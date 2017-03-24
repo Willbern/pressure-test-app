@@ -15,6 +15,11 @@ func (api *Api) Pong(ctx *gin.Context) {
 	HttpOkResponse(ctx, "pong")
 }
 
+func (api *Api) ResponseJson(ctx *gin.Context) {
+	ctx.File("file.json")
+	return
+}
+
 func (api *Api) Add(ctx *gin.Context) {
 	var app model.App
 	err := ctx.BindJSON(&app)
