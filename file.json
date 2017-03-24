@@ -1,0 +1,23 @@
+{
+  "id": "test",
+  "cmd": null,
+  "cpus": 1,
+  "mem": 128,
+  "disk": 0,
+  "instances": 1,
+  "container": {
+    "docker": {
+      "image": "test",
+      "network": "HOST"
+    },
+    "type": "DOCKER"
+  },
+  "portDefinitions": [
+    {
+      "port": 0,
+      "protocol": "tcp",
+      "name": null,
+      "labels": null
+    }
+  ]
+}
